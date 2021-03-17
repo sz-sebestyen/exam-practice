@@ -1,6 +1,9 @@
 function Menu() {
   return (
-    <div className="bg-black rounded-full w-12 h-12 px-3 py-4 absolute top-5 right-5 flex flex-col justify-between">
+    <div
+      className={`cursor-pointer bg-black rounded-full
+			w-12 h-12 px-3 py-4 absolute top-5 right-5 flex flex-col justify-between`}
+    >
       <Line />
       <Line />
       <Line />
