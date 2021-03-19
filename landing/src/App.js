@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App font-sans">
       <Menu />
-      <div className="lg:p-32">
-        <div className="picture lg:h-full"></div>
-        <div className="mx-8">
-          <h1 className="my-10 text-4xl font-bold">Morella</h1>
-          <p className="font-serif">
+      <div className="inner lg:p-12 lg:flex lg:gap-10">
+        <div className="picture"></div>
+        <div className="content mx-8 lg:mx-0">
+          <h1 className="my-10 text-4xl font-bold lg:mt-20">Morella</h1>
+          <p className="font-serif leading-loose lg:mr-28">
             Morella mélységesen művelt volt. Életemet merem rátenni: tehetsége
             magasabb rendű volt a közönségesnél - elméjének ereje óriási.
             Éreztem ezt, és sok dologban tanítványa lettem. De hamarosan úgy
