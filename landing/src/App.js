@@ -1,27 +1,29 @@
-import "./App.css";
+import "./App.scss";
 import Button from "./components/Button/Button";
 import Menu from "./components/Menu/Menu";
 
 function App() {
   return (
-    <div className="App bg-blue-200 h-screen flex flex-col items-start pb-8 pl-8 md:pl-16">
+    <div className="App font-sans">
       <Menu />
-      <div className="flex-grow">
-        <h1 className="mt-32 text-5xl text-blue-900 md:text-9xl md:mt-16 font-sans">
-          Find Your
-          <br />
-          Dream Job
-          <br />
-          with Us
-        </h1>
-        <p className="mt-10 mr-8 max-w-xs">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+      <div className="lg:p-32">
+        <div className="picture lg:h-full"></div>
+        <div className="mx-8">
+          <h1 className="my-10 text-4xl font-bold">Morella</h1>
+          <p className="font-serif">
+            Morella mélységesen művelt volt. Életemet merem rátenni: tehetsége
+            magasabb rendű volt a közönségesnél - elméjének ereje óriási.
+            Éreztem ezt, és sok dologban tanítványa lettem. De hamarosan úgy
+            találtam, hogy pozsonyi nevelése folytán azokat a misztikus írásokat
+            rakja elém, egész csomót, amiket általában a korai német irodalom
+            puszta salakjának szoktunk tekinteni. Ez volt, el sem tudtam
+            képzelni, mi okból, kedvence s állandó tanulmánya - s hogy idő
+            folytán ez lett nekem magamnak is, a példa és szokás egyszerű, de
+            hatékony befolyásának kell tulajdonítani...
+          </p>
+          <Button>READ MORE</Button>
+        </div>
       </div>
-      <Button>APPLY</Button>
     </div>
   );
 }

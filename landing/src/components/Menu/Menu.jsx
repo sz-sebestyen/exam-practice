@@ -1,7 +1,9 @@
+import "./Menu.scss";
+
 function Menu() {
   return (
     <div
-      className={`cursor-pointer bg-black rounded-full
+      className={`burger-menu cursor-pointer rounded-full
 			w-12 h-12 px-3 py-4 absolute top-5 right-5 flex flex-col justify-between`}
     >
       <Line />
@@ -12,7 +14,7 @@ function Menu() {
 }
 
 function Line() {
-  return <div className="bg-white h-0.5"></div>;
+  return <div className="burger-menu-line h-0.5"></div>;
 }
 
 export default Menu;
